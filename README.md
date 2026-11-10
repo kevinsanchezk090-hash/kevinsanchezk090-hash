@@ -11,3 +11,9 @@
 ## Language
 
 Python :snake:
+
+
+### :zap: Acciones recientes
+<!--START_SECTION:activity-->
+
+<!-- END_SECTION:activity-->
