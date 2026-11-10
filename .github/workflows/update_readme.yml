@@ -1,0 +1,23 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Update README2
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'   # cada 12 horas (minuto 0)
+  workflow_dispatch:         # permite ejecutarlo manualmente con "Run workflow"
+
+permissions:
+  contents: write            # necesario para que la acción pueda guardar cambios en tu README
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Update Profile README
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: Readme-Workflows/recent-activity@v2.4.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
