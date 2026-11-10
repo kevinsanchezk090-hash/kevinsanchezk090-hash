@@ -13,7 +13,7 @@
 Python :snake:
 
 
-### :zap: Acciones recientes
-<!--START_SECTION:activity-->
+### :zap: Recent Activity
+<!--RECENT_ACTIVITY:start-->
 
-<!-- END_SECTION:activity-->
+<!--RECENT_ACTIVITY:end-->
